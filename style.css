@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+body{
+    font-family: 'black ops one', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    position: relative;
+    height: 100vh;
+    color: #fff;
+    display: grid;
+    place-content: center;
+}
+
+section:nth-child(1){
+    background: url(images/orange.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 4px 6px 6px rgb(212 8 8 / 80%);
+}
+
+section:nth-child(2){
+    background: url(images/pineapple.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 4px 6px 6px rgb(224 155 15 / 80%);
+}
+
+section:nth-child(3){
+    background: url(images/women.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 4px 6px 6px rgb(53 43 48 / 80%);
+}
+
+section:nth-child(4){
+    background: url(images/rose.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 4px 6px 6px rgb(173 55 168 / 80%);
+}
+
+.box{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1.25rem;
+    line-height: 1.1;
+}
+
+.box span{
+    display: inline-block;
+    font-size: 12rem;
+}
+
+@media (max-width: 768px) {
+    .box span{
+        font-size: 4rem;
+    }
+}
